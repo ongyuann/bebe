@@ -21,7 +21,6 @@ def insecure_deserialization(exploit_code):
     d = cPickle.loads(exploit_code)
     return d
 
-
 def send():
     import requests
     from bs4 import BeautifulSoup
